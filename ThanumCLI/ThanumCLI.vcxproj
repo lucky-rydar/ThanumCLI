@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CommandLineInterface.cpp" />
     <ClCompile Include="Parser.cpp" />
     <ClCompile Include="ThanumCLI.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CommandLineInterface.h" />
     <ClInclude Include="Parser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
