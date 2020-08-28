@@ -10,9 +10,9 @@ public:
 	~FSManager();
 
 	void turnTo(string path);
-
+	vector<string> getAll();
 private:
 	filesystem::path path;
-
+	//filesystem::directory_iterator dir_iter;
 };
 

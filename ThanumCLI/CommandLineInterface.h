@@ -1,5 +1,6 @@
 #pragma once
 #include "Parser.h"
+#include "FSManager.h"
 
 class CommandLineInterface
 {
@@ -11,5 +12,6 @@ public:
 
 private:
 	Parser* parser;
+	FSManager *fs_manager;
 };
 
