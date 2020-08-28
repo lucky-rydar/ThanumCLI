@@ -14,5 +14,9 @@ CommandLineInterface::~CommandLineInterface()
 
 void CommandLineInterface::getLine()
 {
+	string line;
+	cout << fs_manager->getCurrentPath().string() << "$ ";
+	cin >> line;
 
+	auto persing_result = parser->parse(line);
 }
