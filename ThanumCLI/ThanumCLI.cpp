@@ -9,5 +9,6 @@ int main()
 	while (true)
 	{
 		cli.getLine();
+		cli.proccessLine();
 	}
 }

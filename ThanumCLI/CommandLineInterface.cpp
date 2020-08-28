@@ -16,7 +16,18 @@ void CommandLineInterface::getLine()
 {
 	string line;
 	cout << fs_manager->getCurrentPath().string() << "$ ";
-	cin >> line;
+	std::getline(cin, line);
 
-	auto persing_result = parser->parse(line);
+	this->command_data = parser->parse(line);
+	
+}
+
+void CommandLineInterface::proccessLine()
+{
+	for (int i = 0; i < command_data.size(); i++)
+	{
+		cout << command_data[i] << endl;
+	}
+	
+	return;
 }

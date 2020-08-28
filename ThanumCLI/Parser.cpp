@@ -11,7 +11,7 @@ Parser::~Parser()
 
 vector<string> Parser::parse(string line)
 {
-	regex templ("(?:(\\w+)\\s?)(?:(.+)\\s*)?");
+	regex templ("(?:(\\w+)\\s?)(?:(.*)\\s*)?");
 	cmatch found;
 	vector<string> result;
 

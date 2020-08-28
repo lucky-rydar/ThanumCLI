@@ -9,8 +9,12 @@ public:
 	~CommandLineInterface();
 
 	void getLine();
+	void proccessLine();
 
 private:
+	
+	
+	vector<string> command_data;
 	Parser* parser;
 	FSManager *fs_manager;
 };
