@@ -11,6 +11,8 @@ public:
 
 	void turnTo(string path);
 	vector<string> getAll();
+	filesystem::path getCurrentPath();
+
 private:
 	filesystem::path path;
 };

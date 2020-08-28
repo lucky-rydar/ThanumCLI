@@ -28,3 +28,8 @@ vector<string> FSManager::getAll()
 	
 	return res;
 }
+
+filesystem::path FSManager::getCurrentPath()
+{
+	return this->path;
+}
