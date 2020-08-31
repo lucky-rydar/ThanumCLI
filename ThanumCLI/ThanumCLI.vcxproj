@@ -141,12 +141,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CommandLineInterface.cpp" />
+    <ClCompile Include="CommandProccessor.cpp" />
     <ClCompile Include="FSManager.cpp" />
     <ClCompile Include="Parser.cpp" />
     <ClCompile Include="ThanumCLI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommandLineInterface.h" />
+    <ClInclude Include="CommandProccessor.h" />
     <ClInclude Include="FSManager.h" />
     <ClInclude Include="Parser.h" />
   </ItemGroup>

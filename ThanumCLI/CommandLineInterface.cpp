@@ -3,13 +3,14 @@
 CommandLineInterface::CommandLineInterface()
 {
 	this->parser = new Parser();
-	this->fs_manager = new FSManager();
+	this->com_proc = new CommandProccessor();
+	this->fs_manager = com_proc->getFSManager();
 }
 
 CommandLineInterface::~CommandLineInterface()
 {
 	delete parser;
-	delete fs_manager;
+	delete com_proc;
 }
 
 void CommandLineInterface::getLine()

@@ -1,6 +1,7 @@
 #pragma once
 #include "Parser.h"
 #include "FSManager.h"
+#include "CommandProccessor.h"
 
 class CommandLineInterface
 {
@@ -12,10 +13,11 @@ public:
 	void proccessLine();
 
 private:
-	
-	
-	vector<string> command_data;
 	Parser* parser;
-	FSManager *fs_manager;
+	FSManager* fs_manager;
+	CommandProccessor* com_proc;
+
+	vector<string> command_data;
+	
 };
 
