@@ -22,6 +22,12 @@ void FSManager::turnTo(string path)
 	
 }
 
+void FSManager::turnUp()
+{
+	regex tmpl("(\/[\\w\\d \\.]+\\/?)$");
+	this->path = regex_replace(this->path.string(), tmpl, "");
+}
+
 vector<string> FSManager::getAllFiles()
 {
 	vector<string> res;

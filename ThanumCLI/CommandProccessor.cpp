@@ -23,7 +23,13 @@ void CommandProccessor::cd(vector<string> command_data)
 	if (command_data.size() > 2)
 		puts("to many arguments in command \"cd\"");
 	else
-		this->fs_manager->turnTo(command_data[1]);
+	{
+		if (command_data[1] == "..")
+			this->fs_manager->turnUp();
+		else
+			this->fs_manager->turnTo(command_data[1]);
+	}
+		
 }
 
 void CommandProccessor::ls(vector<string> command_data)

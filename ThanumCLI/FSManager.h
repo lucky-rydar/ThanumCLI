@@ -12,6 +12,8 @@ public:
 	~FSManager();
 
 	void turnTo(string path);
+	void turnUp();
+
 	vector<string> getAllFiles();
 	filesystem::path getCurrentPath();
 
