@@ -12,8 +12,8 @@ public:
 	Parser();
 	~Parser();
 
-	vector<string> parse(string line);
+	static vector<string> parse_line(string line);
 private:
-
+	static void line_corrector(string& line);
 };
 

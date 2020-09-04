@@ -9,9 +9,10 @@ Parser::~Parser()
 {
 }
 
-vector<string> Parser::parse(string line)
+vector<string> Parser::parse_line(string line)
 {
-	regex templ("(?:(\\w+)\\s?)(?:(.*)\\s*)?");
+	line_corrector(line);
+	regex templ("(?:([\\w\\d:\/\\.]+)\\s?)(?:(.*)\\s?)?");
 	cmatch found;
 	vector<string> result;
 
@@ -22,5 +23,15 @@ vector<string> Parser::parse(string line)
 			line = found[2];
 	}
 
+	
+
 	return result;
+}
+
+void Parser::line_corrector(string& line)
+{
+	regex double_dot(":");
+	
+	line = regex_replace(line, double_dot, ":/");
+	line += " ";
 }

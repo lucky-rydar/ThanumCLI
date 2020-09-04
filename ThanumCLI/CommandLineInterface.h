@@ -13,7 +13,6 @@ public:
 	void proccessLine();
 
 private:
-	Parser* parser;
 	FSManager* fs_manager;
 	CommandProccessor* com_proc;
 

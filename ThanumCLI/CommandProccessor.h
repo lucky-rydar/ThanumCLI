@@ -12,7 +12,7 @@ public:
 	CommandProccessor();
 	~CommandProccessor();
 
-	void run(vector<string> command_data);
+	void run_command(vector<string> command_data);
 
 	FSManager* getFSManager();
 private:

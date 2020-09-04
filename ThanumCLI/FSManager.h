@@ -1,5 +1,7 @@
 #pragma once
 #include <filesystem>
+#include <iostream>
+#include <regex>
 
 using namespace std;
 
@@ -10,7 +12,7 @@ public:
 	~FSManager();
 
 	void turnTo(string path);
-	vector<string> getAll();
+	vector<string> getAllFiles();
 	filesystem::path getCurrentPath();
 
 private:

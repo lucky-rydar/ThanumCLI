@@ -2,7 +2,11 @@
 
 FSManager::FSManager()
 {
-	this->path = filesystem::current_path();
+	string cur_path_str = filesystem::current_path().string();
+	regex back_to_front_slash("[\\\\]");
+	string new_cur_path = regex_replace(cur_path_str.c_str(), back_to_front_slash, "/");
+	this->path = new_cur_path;
+	
 }
 
 FSManager::~FSManager()
@@ -11,11 +15,11 @@ FSManager::~FSManager()
 
 void FSManager::turnTo(string path)
 {
-	this->path = filesystem::path(path);
+	this->path = path;
 	//TO DO: make relevant path
 }
 
-vector<string> FSManager::getAll()
+vector<string> FSManager::getAllFiles()
 {
 	vector<string> res;
 	filesystem::directory_iterator dir_iter(this->path);

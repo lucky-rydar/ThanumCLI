@@ -1,15 +1,13 @@
 #include "CommandLineInterface.h"
 
 CommandLineInterface::CommandLineInterface()
-{
-	this->parser = new Parser();
+{	
 	this->com_proc = new CommandProccessor();
-	this->fs_manager = com_proc->getFSManager();
+	this->fs_manager = com_proc->getFSManager(); // do not delete this
 }
 
 CommandLineInterface::~CommandLineInterface()
 {
-	delete parser;
 	delete com_proc;
 }
 
@@ -19,16 +17,13 @@ void CommandLineInterface::getLine(string sufix)
 	cout << fs_manager->getCurrentPath().string() << sufix;
 	std::getline(cin, line);
 
-	this->command_data = parser->parse(line);
+	this->command_data = Parser::parse_line(line);
 	
 }
 
 void CommandLineInterface::proccessLine()
 {
-	for (int i = 0; i < command_data.size(); i++)
-	{
-		cout << command_data[i] << endl;
-	}
+	com_proc->run_command(command_data);
 	
 	return;
 }
