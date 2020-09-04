@@ -31,7 +31,11 @@ vector<string> Parser::parse_line(string line)
 void Parser::line_corrector(string& line)
 {
 	regex double_dot(":");
+	regex double_dot_slash(":\/");
 	
-	line = regex_replace(line, double_dot, ":/");
-	line += " ";
+	if (!regex_search(line.c_str(), double_dot_slash))
+	{
+		line = regex_replace(line, double_dot, ":/");
+		line += " ";
+	}
 }

@@ -16,10 +16,14 @@ FSManager::~FSManager()
 void FSManager::turnTo(string path)
 {
 	if (path[0] == '/' || path.find("D:") != string::npos) // if not relative
+	{
+		// added checking of the path
 		this->path = path;
+	}
 	else // else it is relative
+	{
 		this->path += string("/" + path);
-	
+	}
 }
 
 void FSManager::turnUp()
