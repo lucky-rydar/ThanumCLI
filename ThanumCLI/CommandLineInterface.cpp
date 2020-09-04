@@ -13,10 +13,10 @@ CommandLineInterface::~CommandLineInterface()
 	delete com_proc;
 }
 
-void CommandLineInterface::getLine()
+void CommandLineInterface::getLine(string sufix)
 {
 	string line;
-	cout << fs_manager->getCurrentPath().string() << "$ ";
+	cout << fs_manager->getCurrentPath().string() << sufix;
 	std::getline(cin, line);
 
 	this->command_data = parser->parse(line);

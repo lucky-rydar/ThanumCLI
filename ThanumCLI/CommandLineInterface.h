@@ -9,7 +9,7 @@ public:
 	CommandLineInterface();
 	~CommandLineInterface();
 
-	void getLine();
+	void getLine(string sufix = "$ ");
 	void proccessLine();
 
 private:
