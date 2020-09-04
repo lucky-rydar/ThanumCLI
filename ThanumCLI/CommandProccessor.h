@@ -13,6 +13,9 @@ public:
 	~CommandProccessor();
 
 	void run_command(vector<string> command_data);
+	void cd(vector<string> command_data);
+	void ls(vector<string> command_data);
+
 
 	FSManager* getFSManager();
 private:

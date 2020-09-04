@@ -13,23 +13,29 @@ CommandProccessor::~CommandProccessor()
 void CommandProccessor::run_command(vector<string> command_data)
 {
 	if (command_data[0] == "cd")
-	{
-		if (command_data.size() > 2)
-			puts("to many arguments in command \"cd\"");
-		else
-			this->fs_manager->turnTo(command_data[1]);
-	}
+		cd(command_data);
 	else if (command_data[0] == "ls")
+		ls(command_data);
+}
+
+void CommandProccessor::cd(vector<string> command_data)
+{
+	if (command_data.size() > 2)
+		puts("to many arguments in command \"cd\"");
+	else
+		this->fs_manager->turnTo(command_data[1]);
+}
+
+void CommandProccessor::ls(vector<string> command_data)
+{
+	if (command_data.size() > 1)
+		puts("To many arguments");
+	else
 	{
-		if (command_data.size() > 1)
-			puts("To many arguments");
-		else
+		auto files = this->fs_manager->getAllFiles();
+		for (size_t i = 0; i < files.size(); i++)
 		{
-			auto files = this->fs_manager->getAllFiles();
-			for (size_t i = 0; i < files.size(); i++)
-			{
-				cout << files[i] << endl;
-			}
+			cout << files[i] << endl;
 		}
 	}
 }
