@@ -23,8 +23,6 @@ vector<string> Parser::parse_line(string line)
 			line = found[2];
 	}
 
-	
-
 	return result;
 }
 

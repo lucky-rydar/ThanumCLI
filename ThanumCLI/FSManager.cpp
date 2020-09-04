@@ -22,7 +22,10 @@ void FSManager::turnTo(string path)
 	}
 	else // else it is relative
 	{
-		this->path += string("/" + path);
+		if (*(this->path.string().end() - 1) == '/')
+			this->path += string(path);
+		else
+			this->path += string("/" + path);
 	}
 }
 
