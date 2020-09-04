@@ -15,8 +15,11 @@ FSManager::~FSManager()
 
 void FSManager::turnTo(string path)
 {
-	this->path = path;
-	//TO DO: make relevant path
+	if (path[0] == '/' || path.find("D:") != string::npos) // if not relative
+		this->path = path;
+	else // else it is relative
+		this->path += string("/" + path);
+	
 }
 
 vector<string> FSManager::getAllFiles()
