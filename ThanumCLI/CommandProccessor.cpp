@@ -18,7 +18,7 @@ void CommandProccessor::run_command(vector<string> command_data)
 			cd(command_data);
 		else if (command_data[0] == "ls")
 			ls(command_data);
-		else
+		else if(command_data[0] == "sys")
 			sys(command_data);
 	}
 }
