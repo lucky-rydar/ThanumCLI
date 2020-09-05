@@ -1,4 +1,5 @@
 #pragma once
+#include <clocale>
 #include "Parser.h"
 #include "FSManager.h"
 #include "CommandProccessor.h"
