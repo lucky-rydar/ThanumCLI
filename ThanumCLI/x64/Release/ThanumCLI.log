@@ -1,7 +1,8 @@
-﻿  CommandProccessor.cpp
+﻿  CommandLineInterface.cpp
+  CommandProccessor.cpp
   Создание кода
-  6 of 1231 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+  4 of 1231 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    56 functions had inline decision re-evaluated but remain unchanged
+    3 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   ThanumCLI.vcxproj -> D:\my_projects\open_source_projects\ThanumCLI\x64\Release\ThanumCLI.exe

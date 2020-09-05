@@ -12,12 +12,15 @@ CommandProccessor::~CommandProccessor()
 
 void CommandProccessor::run_command(vector<string> command_data)
 {
-	if (command_data[0] == "cd")
-		cd(command_data);
-	else if (command_data[0] == "ls")
-		ls(command_data);
-	else if (command_data[0] == "sys")
-		sys(command_data);
+	if (command_data.size() >= 1)
+	{
+		if (command_data[0] == "cd")
+			cd(command_data);
+		else if (command_data[0] == "ls")
+			ls(command_data);
+		else if (command_data[0] == "sys")
+			sys(command_data);
+	}
 }
 
 void CommandProccessor::cd(vector<string> command_data)

@@ -18,7 +18,6 @@ void CommandLineInterface::getLine(string sufix)
 	std::getline(cin, line);
 
 	this->command_data = Parser::parse_line(line);
-	
 }
 
 void CommandLineInterface::proccessLine()
