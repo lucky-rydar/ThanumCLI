@@ -16,6 +16,8 @@ void CommandProccessor::run_command(vector<string> command_data)
 		cd(command_data);
 	else if (command_data[0] == "ls")
 		ls(command_data);
+	else if (command_data[0] == "sys")
+		sys(command_data);
 }
 
 void CommandProccessor::cd(vector<string> command_data)
@@ -44,6 +46,30 @@ void CommandProccessor::ls(vector<string> command_data)
 			cout << files[i] << endl;
 		}
 	}
+}
+
+void CommandProccessor::sys(vector<string> command_data)
+{
+	regex win_format("/");
+	string my_path = this->fs_manager->getCurrentPath().string();
+	filesystem::path win_path = regex_replace(my_path, win_format, "\\");
+
+	regex file("\\w*\\.\\w+");
+	for (size_t i = 0; i < command_data.size(); i++)
+	{
+		if (regex_search(command_data[i], file))
+			command_data[i] = win_path.string() + "\\" + command_data[i];
+	}
+
+	string to_call;
+	string buff;
+
+	for (size_t i = 1; i < command_data.size(); i++)
+	{
+		
+		to_call += command_data[i] + " ";
+	}
+	std::system(to_call.c_str());
 }
 
 FSManager* CommandProccessor::getFSManager()
