@@ -26,7 +26,7 @@ void CommandProccessor::run_command(vector<string> command_data)
 void CommandProccessor::cd(vector<string> command_data)
 {
 	if (command_data.size() > 2)
-		puts("to many arguments in command \"cd\"");
+		puts("to many arguments to command \"cd\"");
 	else
 	{
 		if (command_data[1] == "..")
@@ -62,10 +62,18 @@ void CommandProccessor::sys(vector<string> command_data)
 	{
 		if (regex_search(command_data[i], file))
 		{
-			if(win_path.string()[win_path.string().size() -1] != '\\')
-				command_data[i] = win_path.string() + "\\" + command_data[i];
+			struct stat buffer;
+			
+			if (win_path.string()[win_path.string().size() - 1] != '\\')
+			{
+				if (stat((win_path.string() + "\\" + command_data[i]).c_str(), &buffer) == 0)
+					command_data[i] = win_path.string() + "\\" + command_data[i];
+			}
 			else
-				command_data[i] = win_path.string() + command_data[i];
+			{
+				if (stat((win_path.string() + command_data[i]).c_str(), &buffer) == 0)
+					command_data[i] = win_path.string() + command_data[i];
+			}
 		}
 			
 	}
