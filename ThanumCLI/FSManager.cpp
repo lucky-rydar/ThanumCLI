@@ -18,14 +18,28 @@ void FSManager::turnTo(string path)
 	if (path[0] == '/' || path.find(":") != string::npos) // if not relative
 	{
 		// added checking of the path
-		this->path = path;
+		if (filesystem::exists(filesystem::path(path)))
+			this->path = path;
+		else
+			puts("No such file or directory");
 	}
 	else // else it is relative
 	{
+		string temp_path = this->path.string();
 		if (*(this->path.string().end() - 1) == '/')
-			this->path += string(path);
+		{
+			if(filesystem::exists(filesystem::path(temp_path + path)))
+				this->path += string(path);
+			else
+				puts("No such file or directory");
+		}
 		else
-			this->path += string("/" + path);
+		{
+			if (filesystem::exists(filesystem::path(temp_path + "/" + path)))
+				this->path += string("/" + path);
+			else
+				puts("No such file or directory");
+		}
 	}
 }
 
