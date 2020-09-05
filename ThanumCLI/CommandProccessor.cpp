@@ -58,7 +58,13 @@ void CommandProccessor::sys(vector<string> command_data)
 	for (size_t i = 0; i < command_data.size(); i++)
 	{
 		if (regex_search(command_data[i], file))
-			command_data[i] = win_path.string() + "\\" + command_data[i];
+		{
+			if(win_path.string()[win_path.string().size() -1] != '\\')
+				command_data[i] = win_path.string() + "\\" + command_data[i];
+			else
+				command_data[i] = win_path.string() + command_data[i];
+		}
+			
 	}
 
 	string to_call;
