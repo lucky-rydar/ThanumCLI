@@ -30,7 +30,7 @@
     <ClCompile Include="CommandProccessor.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ColoredPrinter.cpp">
+    <ClCompile Include="TextConvertor.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,7 +47,7 @@
     <ClInclude Include="CommandProccessor.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="ColoredPrinter.h">
+    <ClInclude Include="TextConvertor.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

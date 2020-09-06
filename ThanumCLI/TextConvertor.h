@@ -24,17 +24,12 @@ enum class Color
 	BrightWhite
 };
 
-class ColoredPrinter
+class TextConvertor
 {
 public:
-	static void print(string text, Color back_ground_color, Color text_color)
+	static string coloredBy(string text, Color text_color, Color back_ground_color = Color::Black)
 	{
-		// first is background and then the text
-		//printf("\033[47;35mTexting\033[0m\t\t");
-		
-		cout << "\033[" + to_string(int(back_ground_color) + 10) + ";" + to_string(int(text_color)) + "m" + text + "\033[0m";
-
-
+		return ("\033[" + to_string(int(back_ground_color) + 10) + ";" + to_string(int(text_color)) + "m" + text + "\033[0m");
 	}
 	
 private:

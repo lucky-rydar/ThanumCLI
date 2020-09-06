@@ -143,7 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ColoredPrinter.cpp" />
+    <ClCompile Include="TextConvertor.cpp" />
     <ClCompile Include="CommandLineInterface.cpp" />
     <ClCompile Include="CommandProccessor.cpp" />
     <ClCompile Include="FSManager.cpp" />
@@ -151,7 +151,7 @@
     <ClCompile Include="ThanumCLI.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ColoredPrinter.h" />
+    <ClInclude Include="TextConvertor.h" />
     <ClInclude Include="CommandLineInterface.h" />
     <ClInclude Include="CommandProccessor.h" />
     <ClInclude Include="FSManager.h" />
