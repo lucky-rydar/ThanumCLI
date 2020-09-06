@@ -12,7 +12,7 @@ Parser::~Parser()
 vector<string> Parser::parse_line(string line)
 {
 	line_corrector(line);
-	regex templ("(?:([\\w\\d:\/\\.]+)\\s?)(?:(.*)\\s?)?");
+	regex templ("(?:([\\w\\d:/\\.]+)\\s?)(?:(.*)\\s?)?");
 	cmatch found;
 	vector<string> result;
 
@@ -29,7 +29,7 @@ vector<string> Parser::parse_line(string line)
 void Parser::line_corrector(string& line)
 {
 	regex double_dot(":");
-	regex double_dot_slash(":\/");
+	regex double_dot_slash(":/");
 	
 	if (!regex_search(line.c_str(), double_dot_slash))
 	{

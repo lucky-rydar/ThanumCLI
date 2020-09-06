@@ -1,14 +1,209 @@
 ﻿  CommandLineInterface.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(192,14): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(962,25): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(970,25): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypesbase.h(437,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypesbase.h(462,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypesbase.h(479,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(77,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(86,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(92,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(98,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(104,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(110,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(485,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidlbase.h(2175,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidlbase.h(2189,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidlbase.h(7881,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidlbase.h(7897,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(9745,69): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(10274,77): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(10306,77): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(10785,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(10800,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(11243,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(12976,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(12991,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14657,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14673,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14820,77): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14859,77): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14876,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14893,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(15138,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(15157,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\oaidl.h(563,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
   CommandProccessor.cpp
   FSManager.cpp
 D:\my_projects\open_source_projects\ThanumCLI\ThanumCLI\FSManager.cpp(48,13): warning C4129: /: неизвестная escape-последовательность
-  Parser.cpp
-D:\my_projects\open_source_projects\ThanumCLI\ThanumCLI\Parser.cpp(15,14): warning C4129: /: неизвестная escape-последовательность
-D:\my_projects\open_source_projects\ThanumCLI\ThanumCLI\Parser.cpp(32,25): warning C4129: /: неизвестная escape-последовательность
   ThanumCLI.cpp
-  Создание кода
-  4 of 1249 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Создание кода завершено
-  ThanumCLI.vcxproj -> D:\my_projects\open_source_projects\ThanumCLI\x64\Release\ThanumCLI.exe
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(192,14): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(962,25): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(970,25): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypesbase.h(437,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypesbase.h(462,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypesbase.h(479,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(77,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(86,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(92,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(98,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(104,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(110,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\wtypes.h(485,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidlbase.h(2175,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidlbase.h(2189,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidlbase.h(7881,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidlbase.h(7897,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(9745,69): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(10274,77): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(10306,77): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(10785,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(10800,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(11243,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(12976,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(12991,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14657,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14673,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14820,77): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14859,77): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14876,79): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(14893,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(15138,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\objidl.h(15157,62): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\oaidl.h(563,26): error C2872: byte: неоднозначный символ
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\rpcndr.h(191,23): message : может быть "unsigned char byte"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\cstddef(29,12): message : или       "std::byte"
