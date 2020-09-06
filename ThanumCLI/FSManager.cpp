@@ -56,7 +56,10 @@ vector<string> FSManager::getAllFiles()
 
 	while (!dir_iter._At_end())
 	{
-		res.push_back(dir_iter->path().filename().string());
+		if(dir_iter->is_directory())
+			res.push_back(TextConvertor::coloredBy(dir_iter->path().filename().string(), Color::Black, Color::Green));
+		else 
+			res.push_back(TextConvertor::coloredBy(dir_iter->path().filename().string(), Color::Green));
 		dir_iter++;
 	}
 	

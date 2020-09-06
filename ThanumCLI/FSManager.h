@@ -2,7 +2,7 @@
 #include <filesystem>
 #include <iostream>
 #include <regex>
-//#include <windows.h>
+#include "TextConvertor.h"
 
 using namespace std;
 

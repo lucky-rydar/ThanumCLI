@@ -1,4 +1,5 @@
 #include "CommandLineInterface.h"
+#include "TextConvertor.h"
 
 CommandLineInterface::CommandLineInterface()
 {	
@@ -16,7 +17,7 @@ CommandLineInterface::~CommandLineInterface()
 void CommandLineInterface::getLine(string sufix)
 {
 	string line;
-	cout << fs_manager->getCurrentPath().string() << sufix;
+	cout << TextConvertor::coloredBy(fs_manager->getCurrentPath().string(), Color::BrightBlue) << TextConvertor::coloredBy(sufix, Color::BrightWhite);
 	std::getline(cin, line);
 
 	this->command_data = Parser::parse_line(line);
