@@ -17,7 +17,7 @@ public:
 
 	vector<string> getAllFiles();
 	filesystem::path getCurrentPath();
-
+	
 private:
 	filesystem::path path;
 };
