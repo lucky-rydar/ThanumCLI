@@ -1,4 +1,5 @@
 #pragma once
+#include "ConsoleConfigurator.h"
 #include <clocale>
 #include "Parser.h"
 #include "FSManager.h"

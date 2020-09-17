@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConsoleConfigurator.cpp" />
     <ClCompile Include="TextConvertor.cpp" />
     <ClCompile Include="CommandLineInterface.cpp" />
     <ClCompile Include="CommandProccessor.cpp" />
@@ -151,6 +152,7 @@
     <ClCompile Include="ThanumCLI.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ConsoleConfigurator.h" />
     <ClInclude Include="TextConvertor.h" />
     <ClInclude Include="CommandLineInterface.h" />
     <ClInclude Include="CommandProccessor.h" />
