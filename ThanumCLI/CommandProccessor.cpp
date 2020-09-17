@@ -54,38 +54,14 @@ void CommandProccessor::ls(vector<string> command_data)
 void CommandProccessor::sys(vector<string> command_data)
 {
 	regex win_format("/");
-	string my_path = this->fs_manager->getCurrentPath().string();
-	filesystem::path win_path = regex_replace(my_path, win_format, "\\");
+	filesystem::path path = this->fs_manager->getCurrentPath().string();
 
-	regex file("\\w*\\.\\w+");
-	for (size_t i = 0; i < command_data.size(); i++)
-	{
-		if (regex_search(command_data[i], file))
-		{
-			struct stat buffer;
-			
-			if (win_path.string()[win_path.string().size() - 1] != '\\')
-			{
-				if (stat((win_path.string() + "\\" + command_data[i]).c_str(), &buffer) == 0)
-					command_data[i] = win_path.string() + "\\" + command_data[i];
-			}
-			else
-			{
-				if (stat((win_path.string() + command_data[i]).c_str(), &buffer) == 0)
-					command_data[i] = win_path.string() + command_data[i];
-			}
-		}
-			
-	}
+	string op_and = " && ";
+	string to_call = path.root_name().string() + op_and + string("cd ") + string(" ") + path.string() + op_and;
 
-	string to_call;
-	string buff;
-
-	for (size_t i = 1; i < command_data.size(); i++)
-	{
-		
+	for (size_t i = 1; i < command_data.size(); i++)	
 		to_call += command_data[i] + " ";
-	}
+
 	std::system(to_call.c_str());
 }
 
