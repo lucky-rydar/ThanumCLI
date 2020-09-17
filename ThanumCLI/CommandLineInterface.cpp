@@ -4,6 +4,7 @@
 CommandLineInterface::CommandLineInterface()
 {	
 	std::setlocale(LC_ALL, "Russian");
+	std::system("cls");
 
 	this->com_proc = new CommandProccessor();
 	this->fs_manager = com_proc->getFSManager(); // do not delete this
