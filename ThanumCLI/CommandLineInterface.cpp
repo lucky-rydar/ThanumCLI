@@ -8,11 +8,15 @@ CommandLineInterface::CommandLineInterface()
 
 	this->com_proc = new CommandProccessor();
 	this->fs_manager = com_proc->getFSManager(); // do not delete this
+	
+	this->console = new ConsoleConfigurator();
+	console->changeConsoleName("Thanum");
 }
 
 CommandLineInterface::~CommandLineInterface()
 {
 	delete com_proc;
+	delete console;
 }
 
 void CommandLineInterface::getLine(string sufix)

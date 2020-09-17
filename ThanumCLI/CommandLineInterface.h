@@ -17,8 +17,8 @@ public:
 private:
 	FSManager* fs_manager;
 	CommandProccessor* com_proc;
+	ConsoleConfigurator *console;
 
 	vector<string> command_data;
-	
 };
 
