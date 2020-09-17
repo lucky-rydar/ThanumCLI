@@ -3,14 +3,14 @@
 
 CommandLineInterface::CommandLineInterface()
 {	
+	this->console = new ConsoleConfigurator();
+	console->changeConsoleName("Thanum");
+	
 	std::setlocale(LC_ALL, "Russian");
 	std::system("cls");
 
 	this->com_proc = new CommandProccessor();
 	this->fs_manager = com_proc->getFSManager(); // do not delete this
-	
-	this->console = new ConsoleConfigurator();
-	console->changeConsoleName("Thanum");
 }
 
 CommandLineInterface::~CommandLineInterface()
