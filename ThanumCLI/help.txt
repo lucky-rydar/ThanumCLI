@@ -1,0 +1,4 @@
+	cd - to turn another directory
+	ls - to see all files and directories in current dirrectory
+	sys - to use default commands from windows(not recommended)
+	help - to see all commands

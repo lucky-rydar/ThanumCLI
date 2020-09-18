@@ -18,8 +18,10 @@ void CommandProccessor::run_command(vector<string> command_data)
 			cd(command_data);
 		else if (command_data[0] == "ls")
 			ls(command_data);
-		else if(command_data[0] == "sys")
+		else if (command_data[0] == "sys")
 			sys(command_data);
+		else if (command_data[0] == "help")
+			help(command_data);
 	}
 }
 
@@ -63,6 +65,18 @@ void CommandProccessor::sys(vector<string> command_data)
 		to_call += command_data[i] + " ";
 
 	std::system(to_call.c_str());
+}
+
+void CommandProccessor::help(vector<string> command_data)
+{
+	help_file = new fstream("help.txt");
+
+	stringstream ss;
+	ss << help_file->rdbuf();
+	string data = ss.str();
+	cout << data << endl;
+
+	delete help_file;
 }
 
 FSManager* CommandProccessor::getFSManager()

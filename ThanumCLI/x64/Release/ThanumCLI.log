@@ -1,7 +1,16 @@
-﻿  FSManager.cpp
+﻿  CommandLineInterface.cpp
+  CommandProccessor.cpp
+  ThanumCLI.cpp
   Generating code
-  2 of 1279 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+  224 of 1347 functions (16.6%) were compiled, the rest were copied from previous compilation.
+    68 functions were new in current compilation
+    105 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
+ConsoleConfigurator.obj : warning LNK4099: PDB 'vc142.pdb' was not found with 'ConsoleConfigurator.obj' or at 'D:\my_projects\open_source_projects\ThanumCLI\x64\Release\vc142.pdb'; linking object as if no debug info
+TextConvertor.obj : warning LNK4099: PDB 'vc142.pdb' was not found with 'TextConvertor.obj' or at 'D:\my_projects\open_source_projects\ThanumCLI\x64\Release\vc142.pdb'; linking object as if no debug info
+CommandLineInterface.obj : warning LNK4020: a type record in 'd:\my_projects\open_source_projects\thanumcli\thanumcli\x64\release\vc142.pdb' is corrupted; some symbols and types may not be accessible from the debugger
+CommandProccessor.obj : warning LNK4020: a type record in 'd:\my_projects\open_source_projects\thanumcli\thanumcli\x64\release\vc142.pdb' is corrupted; some symbols and types may not be accessible from the debugger
+FSManager.obj : warning LNK4099: PDB 'vc142.pdb' was not found with 'FSManager.obj' or at 'D:\my_projects\open_source_projects\ThanumCLI\x64\Release\vc142.pdb'; linking object as if no debug info
+Parser.obj : warning LNK4099: PDB 'vc142.pdb' was not found with 'Parser.obj' or at 'D:\my_projects\open_source_projects\ThanumCLI\x64\Release\vc142.pdb'; linking object as if no debug info
+ThanumCLI.obj : warning LNK4020: a type record in 'd:\my_projects\open_source_projects\thanumcli\thanumcli\x64\release\vc142.pdb' is corrupted; some symbols and types may not be accessible from the debugger
   ThanumCLI.vcxproj -> D:\my_projects\open_source_projects\ThanumCLI\x64\Release\ThanumCLI.exe

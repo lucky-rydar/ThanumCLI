@@ -2,6 +2,8 @@
 #include <iostream>
 #include <map>
 #include <string>
+#include <sstream>
+#include <fstream>
 #include "FSManager.h"
 
 using namespace std;
@@ -17,9 +19,11 @@ public:
 	void cd(vector<string> command_data);
 	void ls(vector<string> command_data);
 	void sys(vector<string> command_data);
+	void help(vector<string> command_data);
 
 	FSManager* getFSManager();
 private:
 	FSManager* fs_manager;
+	fstream* help_file;
 };
 
