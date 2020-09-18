@@ -24,6 +24,5 @@ public:
 	FSManager* getFSManager();
 private:
 	FSManager* fs_manager;
-	fstream* help_file;
 };
 

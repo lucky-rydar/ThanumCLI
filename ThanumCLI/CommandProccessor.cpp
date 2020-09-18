@@ -69,7 +69,7 @@ void CommandProccessor::sys(vector<string> command_data)
 
 void CommandProccessor::help(vector<string> command_data)
 {
-	help_file = new fstream("help.txt");
+	fstream* help_file = new fstream("help.txt");
 
 	stringstream ss;
 	ss << help_file->rdbuf();
@@ -77,6 +77,7 @@ void CommandProccessor::help(vector<string> command_data)
 	cout << data << endl;
 
 	delete help_file;
+	return;
 }
 
 FSManager* CommandProccessor::getFSManager()
